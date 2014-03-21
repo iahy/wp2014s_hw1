@@ -2,14 +2,14 @@
   <head>
     <meta charset="UTF-8">
     <title>里數累積攻略</title>
+	<link rel="stylesheet" type="text/css" href="https://raw.github.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" href="css.css" />
   </head>
   <body>
-    <header>
-      <h1>臺北旅遊網</h1>
-      <h2><strong>TAIPEI</strong>TRAVEL.NET</h2>
-      <img src="http://www.taipeitravel.net/frontsite/tw/images/001.jpg" alt="台北旅遊網">
-      <p>臺北天氣</p>
-      <nav class="search1"> 
+    <div class="header container_12">
+      <img class="grid_2"src="http://www.taipeitravel.net/frontsite/tw/images/001.jpg" alt="台北旅遊網">
+      <p class="grid_2">臺北天氣</p>
+      <nav class="search1 grid_12"> 
         <a href="http://www.taipeitravel.net/frontsite/tw/member/memberLoginAction.do?method=showLoginMember&siteId=107" target="_blank">登入</a> | 
         <a href="http://www.taipeitravel.net/frontsite/tw/member/registerInfoAction.do?method=registerInfo&siteId=107">加入會員</a> | 
         <a href="http://www.taipeitravel.net/frontsite/tw/member/registerInfoAction.do?method=registerInfo&siteId=107">連絡我們</a> | 
@@ -21,12 +21,12 @@
 		<label for="what">全文檢索</label>
     	<input type="text" name="w" id="what"> <input type="submit" value="搜尋">
       </div>      		  
-    </header>
-    <nav class="category">
-      <ul>
+    </div>
+	
+      <ul class="nav">
         <li><a href="http://www.taipeitravel.net/tw/intro">玩樂新鮮報</a>
 	    </li>
-	      <ul>
+	      <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/cms/cmsAction.do?method=goCMSList&amp;menuId=2010101">旅遊報馬仔</a>
             </li>
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/cms/cmsAction.do?method=goCMSList&menuId=2010102">好康快報</a>
@@ -46,7 +46,7 @@
 	      </ul>
 	    <li><a href="http://www.taipeitravel.net/tw/tips">臺北全攻略</a>
 	    </li>
-	      <ul>
+	      <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/topicListAction.do?method=doFindAll&amp;menuId=2010306">精選主題</a>
 		    </li>
 		    <li><a href="http://www.taipeitravel.net/frontsite/tw/topicListAction.do?method=doFindAll&amp;menuId=2010310">經典遊程</a>
@@ -66,7 +66,7 @@
 	    </li>
 	    <li><a href="http://www.taipeitravel.net/tw/food/">美饌食食樂</a>
 	    </li>
-	      <ul>
+	      <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/storeCuisineListAction.do?method=doList&amp;menuId=2010501">臺北美食</a>
 	        </li>
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/food/foodMapAction.do?method=goFoodMap&amp;menuId=2010502">美食地圖</a>
@@ -80,7 +80,7 @@
 	    </li>
 	    <li><a href="http://www.taipeitravel.net/tw/private/">達人帶你玩</a>
 	    </li>
-	      <ul>
+	      <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/cms/cmsAction.do?method=goSpecialCMSList&amp;menuId=2010701">達人帶你玩</a>
 	        </li>
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/cms/cmsAction.do?method=goCMSList&amp;menuId=2010702">微笑臺北</a>
@@ -88,7 +88,7 @@
 	      </ul>
 	    <li><a href="http://www.taipeitravel.net/tw/guide/">旅遊筆記本</a>
 	    </li>   
-	      <ul>
+	      <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/guide/albumAction.do?method=listAllAlbum&amp;menuId=2010802">相簿集</a>
 	        </li>
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/guide/videoAction.do?method=listAllVideo&amp;menuId=2010803">影音集</a>
@@ -102,7 +102,7 @@
 	      </ul>
 	    <li><a href="http://www.taipeitravel.net/frontsite/tw/free/cmsAction.do?method=goCMSDetail&amp;menuId=2010901&amp;contentId=2022">Free社</a>
 	    </li>
-          <ul>
+          <ul class="submenu">
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/free/cmsAction.do?method=goCMSList&amp;menuId=2010901">社員守則</a>
 	        </li>
 	        <li><a href="http://www.taipeitravel.net/frontsite/tw/free/giftAction.do?method=listAllGift&amp;menuId=2010902">福利品</a>
@@ -116,17 +116,19 @@
             <li><a href="http://www.taipeitravel.net/frontsite/tw/free/ecouponAction.do?method=listAllEcoupon&amp;menuId=2010905">好康折價券</a>
 	        </li>		   
 	      </ul>
-	</nav>
+	  </ul>
+	<div class="topimages" style="background-image: url(/d_upload_ttn/cms/image/A0/B0/C0/D0/E9/F178/d0a39c86-45bb-4b8e-801f-26376369e897.jpg);height: 271px;"></div>
   <>	
   <a href="http://www.taipeitravel.net/" target="_blank">回首頁</a> >
   <a href=http://www.taipeitravel.net/tw/free" target="_blank">Free社</a> >
   <a href=http://www.taipeitravel.net/frontsite/tw/free/cmsAction.do?method=goCMSList&menuId=2010904" target="_blank">里數累積攻略</a> >
 
-  <ul>
-    <li>里數累積攻略</li>
-  </ul>
- 
- <table>					
+  <div class="first">
+    <h3>里數累積攻略</h3>
+	<h1>第一卷</h1>
+    
+      <table>
+
   <tr>
     <th>招數</th> <th>獲得里數</th> <th>入帳方式</th> <th>注意事項</th> 
   </tr>
@@ -140,28 +142,28 @@
     <td>寄送賀卡</td> <td>1<br>立即入帳</td>  <td>寄送給一位朋友可獲得1里數，每日上限為10里數</td>
   </tr>
   <tr>
-    <td>投票</td> <td>10<br>立即入帳</td>  <td>企圖以程式灌票，非法獲得里數，將取消里數</td>
+    <td>投票</td> <td>10</td> <td>立即入帳</td>  <td>企圖以程式灌票，非法獲得里數，將取消里數</td>
   </tr>
   <tr>
-    <td>推薦會員</td> <td>20<br>立即入帳</td>  <td>若違反社員守則之相關規範，經查證後屬實將取消里數</td>
+    <td>推薦會員</td> <td>20</td> <td>立即入帳</td>  <td>若違反社員守則之相關規範，經查證後屬實將取消里數</td>
   </tr>
   <tr>
-    <td>滿意度調查</td> <td>30<br>立即入帳</td>  <td>若違反社員守則之相關規範，經查證後屬實將取消里數</td>
+    <td>滿意度調查</td> <td>30</td> <td>立即入帳</td>  <td>若違反社員守則之相關規範，經查證後屬實將取消里數</td>
   </tr>
 </table>
-
+<h1>終極絕招</h1>
 <table>					
   <tr>
     <th>招數</th> <th>獲得里數</th> <th>入帳方式</th> <th>注意事項</th> 
   </tr>
   <tr>
-    <td>全面動員</td> <td>100<br>審核後入帳</td>  <td>每推薦10名親友加入會員，可額外獲得100里數</td>
+    <td>全面動員</td> <td>100</td> <td>審核後入帳</td>  <td>每推薦10名親友加入會員，可額外獲得100里數</td>
   </tr>
   <tr>
-    <td>消費高手</td> <td>20<br>審核後入帳</td>  <td>每發表一則好康折價券訊息，經審核上架後即可獲得</td>
+    <td>消費高手</td> <td>20</td> <td>審核後入帳</td>  <td>每發表一則好康折價券訊息，經審核上架後即可獲得</td>
   </tr>
   <tr>
-    <td>活動達人</td> <td>20<br>審核後入帳</td>  <td>每發表一則城市活動訊息，經審核上架後即可獲得</td>
+    <td>活動達人</td> <td>20</td> <td>審核後入帳</td>  <td>每發表一則城市活動訊息，經審核上架後即可獲得</td>
   </tr>
 </table>
 	
