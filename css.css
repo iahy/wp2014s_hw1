@@ -1,17 +1,26 @@
-@charset "UTF-8";
-  /*以下失靈*/
-.search1 grid_12{
-  width:00px;
-  margin-top:1em;
-  float:right;
-}
-.search2{
-  float:right;
-}
-.nav{
-  float:center;
+.weather {
+  font:14px/1.5 '微軟正黑體', sans-serif ;
+  }
+.search1 {
+  text-align: right;
+  margin: 10px;
+  font:12px/1 Arial, sans-serif ;
 }
 
+.search2{
+  text-align: right;
+  font:12px/1 '微軟正黑體', sans-serif;
+}
+.nav li{
+  font: 17px/1 '微軟正黑體';
+}
+
+.subnav li{
+  font: 10px/1 Arial, sans-serif;
+}
+.nav ul{
+  list-style-type: none;
+}
 .nav>li{
   display: inline-block;
   position: relative;
@@ -35,7 +44,7 @@
 }
 
 .nav>li:hover .submenu{
-  display: block;
+  display: inline-block;
 }
 .nav>li:hover {
   color:FFFFFF;
@@ -44,7 +53,50 @@
 .submenu li{
   padding: .5em 0;
   color: black;
+  font-size: 12px;
   cursor: pointer;
 }
 .submenu li:hover{
   color: white;
+}
+
+.back{
+  text-align: right;
+  background-color:FF6600;
+  font:white;
+  padding:1px;
+}
+.tips{
+  font-size:13px;
+  }
+.firstone tr:nth-child(1), .lastone tr:nth-child(1) {
+  background: FFCC33;
+  border-width:3px;
+  border-top-style:double; border-bottom-style:solid; 
+  border-bottom-color:FF6600;
+  border-top-color:FF6600;
+  font-weight:900;
+}
+.firstone tr.number{
+font-color: red;
+}
+.rightmenu ul{
+  list-style-type: none;
+  position: absolute; 
+  top:20px; 
+  right:50px;
+}
+
+div .inline-block{
+  background:99FFFF;
+  width: 15em;
+  padding: 1em 1em 2em 1em;
+ }
+
+div .card {
+  font:5px/1 Arial;
+  color:999999;
+}  
+
+
+}
